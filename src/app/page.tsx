@@ -2,8 +2,6 @@ import Image from "next/image";
 import { Button } from "./components/button";
 export default function Home() {
   return (
-    // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"></div>
-
     <div className="limiter">
       <div className="container-login100">
         <div
@@ -80,7 +78,12 @@ export default function Home() {
               </div>
               <div className="text-center mt-5 ">
                 <span className="text-[#7277f7] text-sm">
-                  تماس با ما (پشتیبانی): ۰۲۱۷۸۷۶۲۰۰۰
+                  <a
+                    className="text-[#7277f7] hover:text-[#3138ff] hover:underline transition duration-150 ease-in-out "
+                    href="tel:+982178762000"
+                  >
+                    تماس با ما (پشتیبانی): ۰۲۱۷۸۷۶۲۰۰۰
+                  </a>
                 </span>
               </div>
             </form>
