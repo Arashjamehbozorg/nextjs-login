@@ -35,7 +35,7 @@ export default function Home() {
             <form className="validate-form">
               <div className="text-right">
                 <div
-                  className="wrap-input100 validate-input border-b-2 border-[#d9d9d9]"
+                  className="wrap-input100 validate-input border-b-2 border-[#d9d9d9] mb-6"
                   data-validate="Valid email is required: ex@abc.xyz"
                 >
                   <label className="text-sm" htmlFor="username">
@@ -53,7 +53,7 @@ export default function Home() {
                   </span>
                 </div>
                 <div
-                  className="wrap-input100 validate-input border-b-2 border-[#d9d9d9]"
+                  className="wrap-input100 validate-input border-b-2 border-[#d9d9d9] mb-6"
                   data-validate="Password is required"
                 >
                   <label htmlFor="username" className="text-sm">
