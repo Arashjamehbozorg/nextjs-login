@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Button } from "./components/button";
 export default function Home() {
   return (
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"></div>
@@ -29,11 +29,11 @@ export default function Home() {
                 سامانه اعلام و پیگیری هزینه های درمان
               </h1>
             </div>
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <h3 className="text-sm rounded-md bg-[#33485e] text-[#f5f6f7] px-5 py-4 mb-5">
                 ورود ایرانیان با کد ملی
               </h3>
-            </div>
+            </div> */}
             <form className="validate-form">
               <div className="text-right">
                 <div
@@ -41,13 +41,13 @@ export default function Home() {
                   data-validate="Valid email is required: ex@abc.xyz"
                 >
                   <label className="text-sm" htmlFor="username">
-                    کد ملی
+                    نام کاربری
                   </label>
                   <input
                     className="text-right input100 text-sm"
                     type="text"
                     name="username"
-                    placeholder="کد ملی خود را وارد نمایید"
+                    placeholder="کد ملی بیمه شده اصلی را وارد نمایید"
                   />
                   <span className="focus-input100"></span>
                   <span className="symbol-input100">
@@ -73,15 +73,15 @@ export default function Home() {
                     <i className="fa fa-lock" aria-hidden="true"></i>
                   </span>
                 </div>
-                <div className="text-right pt-2 pb-8">
-                  <a className="text-sm" href="#">
-                    رمز عبور خود را فراموش کرده اید؟
-                  </a>
-                </div>
               </div>
 
               <div className="container-login100-form-btn">
-                <button className="login100-form-btn">ورود به سامانه</button>
+                <Button>ورود به سامانه</Button>
+              </div>
+              <div className="text-center mt-5 ">
+                <span className="text-[#7277f7] text-sm">
+                  تماس با ما (پشتیبانی): ۰۲۱۷۸۷۶۲۰۰۰
+                </span>
               </div>
             </form>
           </div>
