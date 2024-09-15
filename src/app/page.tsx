@@ -27,11 +27,7 @@ export default function Home() {
                 سامانه اعلام و پیگیری هزینه های درمان
               </h1>
             </div>
-            {/* <div className="flex justify-center">
-              <h3 className="text-sm rounded-md bg-[#33485e] text-[#f5f6f7] px-5 py-4 mb-5">
-                ورود ایرانیان با کد ملی
-              </h3>
-            </div> */}
+
             <form className="validate-form">
               <div className="text-right">
                 <div
