@@ -2,8 +2,8 @@ import { Button } from "./button";
 import InputField from "./input-field";
 const Form = () => {
   return (
-    <form className="validate-form">
-      <div className="text-right">
+    <form className="">
+      <div className="">
         <InputField
           label="نام کاربری"
           type="text"
@@ -18,10 +18,10 @@ const Form = () => {
         />
       </div>
 
-      <div className="container-login100-form-btn">
+      <div className="container-login-form-btn">
         <Button>ورود به سامانه</Button>
       </div>
-      <div className="text-center mt-5 ">
+      <div className="text-center mt-5">
         <span className="text-[#7277f7] text-sm">
           <a
             className="text-[#7277f7] hover:text-[#3138ff] hover:underline transition duration-150 ease-in-out "

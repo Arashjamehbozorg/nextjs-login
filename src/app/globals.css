@@ -179,7 +179,7 @@ iframe {
   margin: 0 auto;
 }
 
-.container-login100 {
+.container-login {
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
@@ -261,13 +261,13 @@ iframe {
 }
 
 /*---------------------------------------------*/
-.wrap-input100 {
+.wrap-input {
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
-.input100 {
+.input-login {
   font-size: 14px;
   color: #333333;
   display: block;
@@ -277,36 +277,12 @@ iframe {
   padding: 0 7px;
   outline: none;
   border: none;
-}
-
-.symbol-input100 {
-  font-size: 15px;
-
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  border-radius: 25px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding-left: 35px;
-  pointer-events: none;
-  color: #666666;
-
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  text-align: right;
 }
 
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-login100-form-btn {
+.container-login-form-btn {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -375,10 +351,6 @@ iframe {
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
 
 .alert-validate::before {
   content: attr(data-validate);

@@ -13,20 +13,16 @@ const InputField: React.FC<InputFieldProps> = ({
   placeholder,
 }) => {
   return (
-    <div
-      className="wrap-input100 validate-input border-b-2 border-[#d9d9d9] mb-6"
-      data-validate="Valid email is required: ex@abc.xyz"
-    >
+    <div className="wrap-input border-b-2 border-[#d9d9d9] mb-6">
       <label className="text-sm" htmlFor={name}>
         {label}
       </label>
       <input
-        className="text-right input100"
+        className="input-login"
         type={type}
         name={name}
         placeholder={placeholder}
       />
-      ;<span className="focus-input100"></span>
     </div>
   );
 };
