@@ -11,7 +11,7 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-* {
+@apply * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ html {
   font-family: iran-sans, sans-serif;
 }
 body {
-  background-image: url("../../public/wallpaper.jpg");
+  /* background-image: url("../../public/wallpaper.jpg"); */
   background-position: center;
   background-size: cover;
 }
@@ -179,7 +179,7 @@ iframe {
   margin: 0 auto;
 }
 
-.container-login {
+.container-page {
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
@@ -187,6 +187,7 @@ iframe {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

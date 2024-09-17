@@ -12,7 +12,7 @@ import {
 
 import { Input } from "@/app/components/ui/input";
 
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/app/components/ui/button-ui";
 
 import {
   Table,
