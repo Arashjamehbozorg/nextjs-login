@@ -13,12 +13,15 @@ const InputField: React.FC<InputFieldProps> = ({
   placeholder,
 }) => {
   return (
-    <div className="wrap-input border-b-2 border-[#d9d9d9] mb-6">
-      <label className="text-sm" htmlFor={name}>
+    <div className="wrap-input mb-2">
+      <label
+        className="relative right-5 font-normal text-base text-[#002361]"
+        htmlFor={name}
+      >
         {label}
       </label>
       <input
-        className="input-login"
+        className="pr-5 mt-1 text-sm font-light input-login placeholder:text-[#002361]"
         type={type}
         name={name}
         placeholder={placeholder}

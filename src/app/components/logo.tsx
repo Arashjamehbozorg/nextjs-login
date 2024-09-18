@@ -3,14 +3,8 @@ import SalamatnegarLogo from "../../../public/LogoBig.png";
 
 const Logo = () => {
   return (
-    <div className="flex justify-center">
-      <Image
-        src={SalamatnegarLogo}
-        alt="www.Radisan.com"
-        width={152}
-        height={152}
-        priority
-      />
+    <div className="flex justify-center mb-7">
+      <Image src={SalamatnegarLogo} alt="www.Radisan.com" priority />
     </div>
   );
 };
