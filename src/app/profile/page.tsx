@@ -12,14 +12,14 @@ export default function Profile() {
           text="مریم محمدی / اصلی
 "
         />
-        <div className="flex  rounded-full bg-[#F0F0F0] py-3 justify-center items-center h-[45]  mt-2 w-2/3">
+        <div className="flex  rounded-full bg-[#F0F0F0] py-3 justify-center items-center h-[45]  mt-2 w-3/4 px-4">
           <span className="text-base font-normal text-[#002361]">
             اعلام نقص اطلاعات اعضای خانواده
           </span>
         </div>
-        <div className="flex  rounded-full bg-[#F0F0F0] py-3 justify-center items-center h-[45]  mt-2 w-2/3">
+        <div className="flex  rounded-full bg-[#F0F0F0] py-3 justify-center items-center h-[45]  mt-2 w-3/4 px-4">
           <span className="text-base font-normal text-[#002361] ">
-            بروز رسانی مجدد اطلاعات اعضای خانواده
+            بروزرسانی مجدد اطلاعات اعضای خانواده
           </span>
         </div>
       </div>
