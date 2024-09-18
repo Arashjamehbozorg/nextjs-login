@@ -175,7 +175,7 @@ iframe {
 }
 
 .container-page {
-  width: 100%;
+  width: 80%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
