@@ -11,7 +11,7 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-@apply * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -21,11 +21,6 @@ body,
 html {
   height: 100%;
   font-family: iran-sans, sans-serif;
-}
-body {
-  /* background-image: url("../../public/wallpaper.jpg"); */
-  background-position: center;
-  background-size: cover;
 }
 
 /*---------------------------------------------*/
