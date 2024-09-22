@@ -1,7 +1,39 @@
+"use client";
 import Members from "./member/members";
+import { useEffect, useState } from "react";
 import ProfileCard from "./profile-card";
 import UserOptions from "./user-options";
+import axios from "axios";
+
 export default function Profile() {
+  const [userData, setUserData] = useState<any>([]);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const token = localStorage.getItem("token");
+      if (!token) {
+        setError("No token found!");
+        return;
+      }
+      try {
+        const response = await axios.get(
+          "http://79.175.167.223/insurance/insurance/api/v1/users/",
+          {
+            headers: {
+              Authorization: `Token ${token}`,
+            },
+          }
+        );
+        setUserData(response.data);
+        console.log(token);
+      } catch (error) {
+        setError("Failed to fetch user data!");
+      }
+    };
+    fetchUserData();
+  }, []);
+
   return (
     <div className="container-page mx-auto">
       <div className="">

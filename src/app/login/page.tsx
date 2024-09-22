@@ -11,7 +11,7 @@ const Login = () => {
     <div className="container-page">
       <div
         id="login-wrapper"
-        className=" w-[500px] items-center justify-center bg-silver-100 rounded-2xl px-[55px] pb-[54px] pt-[134px] overflow-hidden"
+        className="w-full md:w-[500px] items-center justify-center bg-silver-100 rounded-2xl px-[55px] pb-[54px] pt-[134px] overflow-hidden"
       >
         <div id="login-content">
           <Logo />
