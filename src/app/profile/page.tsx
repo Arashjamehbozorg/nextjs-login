@@ -26,7 +26,6 @@ export default function Profile() {
           }
         );
         setUserData(response.data);
-        console.log(token);
       } catch (error) {
         setError("Failed to fetch user data!");
       }
@@ -35,8 +34,8 @@ export default function Profile() {
   }, []);
 
   return (
-    <div className="container-page mx-auto">
-      <div className="">
+    <div className="container-page">
+      <div className="w-full md:w-[500px]">
         <ProfileCard />
         <h2 className="text-[#002361] ">اعضای تحت پوشش</h2>
         <Members />
