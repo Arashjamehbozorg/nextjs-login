@@ -2,10 +2,12 @@ import { IoLocationSharp } from "react-icons/io5";
 import { Button } from "../login/button";
 import ChatFooter from "../components/chat-footer";
 import MenuMobile from "../components/menu-mobile";
+import HeaderMobile from "../components/header-mobile";
 export default function DocumentSend() {
   return (
     <div className="container-page px-[29px] ">
       <div className="w-full md:w-2/5 ">
+        <HeaderMobile title="ارسال مدارک" />
         <label
           htmlFor="address"
           className=" block pb-3 text-[#002361] text-right text-sm font-bold leading-5 px-[18px] cursor-pointer"

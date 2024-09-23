@@ -1,10 +1,7 @@
-// @ts-nocheck
-
 import Logo from "../components/logo";
 import Header from "./header";
 import Form from "./form";
-import OptionsBox from "./options-box";
-import BackgroundText from "./background-text";
+
 import FooterLogin from "./footer-login";
 const Login = () => {
   return (

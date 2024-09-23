@@ -27,7 +27,7 @@ const Form = () => {
 
       localStorage.setItem("token", token); // store token in local storage
       router.push("/profile");
-    } catch (err: any) {
+    } catch (err) {
       const axiosError = err as AxiosError<ErrorResponse>;
       setError(axiosError.response?.data?.message || "Failed to login");
     }

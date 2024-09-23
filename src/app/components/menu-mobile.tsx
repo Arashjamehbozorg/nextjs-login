@@ -8,16 +8,16 @@ export default function MenuMobile() {
     <nav className="w-full h-[74px] flex bg-[#fff] items-center px-9 py-5">
       <ul className="flex flex-row w-full justify-around">
         <li className="p-4">
+          <FaUserCircle size={30} color="#C5C4C2" />
+        </li>
+        <li className="p-4">
+          <IoMdNotificationsOutline size={30} color="#C5C4C2" />
+        </li>
+        <li className="p-4">
+          <MdOutlineMedicalServices size={30} color="#C5C4C2" />
+        </li>
+        <li className="p-4">
           <PiHouseSimpleBold size={30} />
-        </li>
-        <li className="p-4">
-          <MdOutlineMedicalServices size={30} />
-        </li>
-        <li className="p-4">
-          <IoMdNotificationsOutline size={30} />
-        </li>
-        <li className="p-4">
-          <FaUserCircle size={30} />
         </li>
       </ul>
     </nav>

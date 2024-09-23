@@ -4,9 +4,15 @@ import { useEffect, useState } from "react";
 import ProfileCard from "./profile-card";
 import UserOptions from "./user-options";
 import axios from "axios";
-
+interface User {
+  id: number;
+  Name: string;
+  Family: string;
+  NationalCode: number;
+}
 export default function Profile() {
-  const [userData, setUserData] = useState<any>([]);
+  const [userData, setUserData] = useState<User[]>([]);
+
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -57,6 +63,7 @@ export default function Profile() {
           </span>
         </div>
       </div>
+      {error ? <h3>{error}</h3> : ""}
     </div>
   );
 }

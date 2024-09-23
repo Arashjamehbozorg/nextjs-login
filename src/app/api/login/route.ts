@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       { username, password }
     );
     return NextResponse.json({ token: response.data.token }, { status: 200 });
-  } catch (err: any) {
+  } catch (err) {
     const axiosError = err as AxiosError<ErrorResponse>;
     return NextResponse.json(
       {
