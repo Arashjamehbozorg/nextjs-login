@@ -40,8 +40,11 @@ export default function Profile() {
         <h2 className="text-[#002361] ">اعضای تحت پوشش</h2>
         <Members />
         <UserOptions
-          text="مریم محمدی / اصلی
-"
+          text={
+            userData.length > 0
+              ? userData[0].Name + " " + userData[0].Family
+              : ""
+          }
         />
         <div className="flex  rounded-full bg-[#F0F0F0] py-3 justify-center items-center h-[45]  mt-2 w-3/4 px-4">
           <span className="text-base font-normal text-[#002361]">

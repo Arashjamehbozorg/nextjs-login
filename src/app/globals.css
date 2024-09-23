@@ -185,9 +185,16 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
 }
 
+.border-based {
+  border-radius: 21px;
+}
+
+.border-chat {
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+}
 .wrap-login100 {
   width: 960px;
   background: #fff;
