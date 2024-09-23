@@ -1,6 +1,7 @@
 import { IoLocationSharp } from "react-icons/io5";
 import { Button } from "../login/button";
 import ChatFooter from "../components/chat-footer";
+import MenuMobile from "../components/menu-mobile";
 export default function DocumentSend() {
   return (
     <div className="container-page px-[29px] ">
@@ -43,6 +44,7 @@ export default function DocumentSend() {
           <Button>ادامه</Button>
         </div>
         <ChatFooter />
+        <MenuMobile />
       </div>
     </div>
   );
