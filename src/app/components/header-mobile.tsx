@@ -5,7 +5,7 @@ interface HeaderMobileProps {
 }
 export default function HeaderMobile({ title }: HeaderMobileProps) {
   return (
-    <header className="w-full">
+    <header className="w-full pt-12">
       <div className="flex flex-row justify-between items-center pb-8">
         <div className="flex items-center">
           <LogoMenu />

@@ -34,7 +34,11 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-
+p {
+  color: #002361 !important;
+  font-size: 15px !important;
+  font-weight: normal !important;
+}
 a:focus {
   outline: none !important;
 }
@@ -173,7 +177,12 @@ iframe {
   width: 100%;
   margin: 0 auto;
 }
-
+.about-us {
+  background-color: #e4f0fa;
+  border-radius: 30px;
+  min-height: 189px;
+  padding: 20px 24px;
+}
 .container-page {
   min-height: 100vh;
   display: -webkit-box;
