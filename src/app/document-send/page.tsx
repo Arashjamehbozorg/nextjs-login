@@ -6,7 +6,7 @@ import HeaderMobile from "../components/header-mobile";
 export default function DocumentSend() {
   return (
     <div className="container-page px-[29px] ">
-      <div className="w-full md:w-2/5 ">
+      <div className="min-h-screen w-full md:w-2/5 mx-auto relative">
         <HeaderMobile title="ارسال مدارک" />
         <label
           htmlFor="address"
@@ -45,7 +45,6 @@ export default function DocumentSend() {
         <div className="pb-[21px] border-chat">
           <Button>ادامه</Button>
         </div>
-        <ChatFooter />
         <MenuMobile />
       </div>
     </div>

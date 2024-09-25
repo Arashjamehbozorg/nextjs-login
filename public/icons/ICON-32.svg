@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 27.04 26.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #79b3e5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Group_534" data-name="Group 534">
+    <g id="Group_533" data-name="Group 533">
+      <path id="Path_7485" data-name="Path 7485" class="cls-1" d="M27.02,26.87H2.23C1,26.87,0,25.87,0,24.64v-15.07c0-.41.1-.8.3-1.16v-.02c.21-.36.49-.66.83-.87L12.32.38c.8-.51,1.81-.5,2.61,0l11,7.13c.34.22.61.52.81.87v.02c.2.35.3.75.3,1.15v12.47h-2.62v-12.37L13.62,2.66,2.62,9.67v14.58h24.4v2.62Z"/>
+      <rect id="Rectangle_539" data-name="Rectangle 539" class="cls-1" x="5.76" y="10.31" width="6.8" height="2.62"/>
+      <rect id="Rectangle_540" data-name="Rectangle 540" class="cls-1" x="5.76" y="14.67" width="6.8" height="2.62"/>
+      <rect id="Rectangle_541" data-name="Rectangle 541" class="cls-1" x="5.76" y="19.03" width="6.8" height="2.62"/>
+      <rect id="Rectangle_542" data-name="Rectangle 542" class="cls-1" x="14.48" y="10.31" width="6.8" height="2.62"/>
+      <rect id="Rectangle_543" data-name="Rectangle 543" class="cls-1" x="14.48" y="14.67" width="6.8" height="2.62"/>
+      <rect id="Rectangle_544" data-name="Rectangle 544" class="cls-1" x="14.48" y="19.03" width="6.8" height="2.62"/>
+    </g>
+  </g>
+</svg>

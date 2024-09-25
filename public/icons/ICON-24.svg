@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24.72 21.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #79b3e5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Group_564" data-name="Group 564">
+    <g id="Group_563" data-name="Group 563">
+      <path id="Path_7505" data-name="Path 7505" class="cls-1" d="M16.63,21.48H2.42c-1.34,0-2.42-1.08-2.42-2.42,0,0,0,0,0,0V2.42C0,1.08,1.08,0,2.42,0h0s14.2,0,14.2,0C17.96,0,19.04,1.08,19.04,2.42v16.64c0,1.34-1.08,2.42-2.42,2.42M2.84,18.64h13.37V2.84H2.84v15.8Z"/>
+      <rect id="Rectangle_558" data-name="Rectangle 558" class="cls-1" x="5.52" y="5.13" width="8.02" height="2.84"/>
+      <rect id="Rectangle_559" data-name="Rectangle 559" class="cls-1" x="5.52" y="9.47" width="8.02" height="2.84"/>
+      <rect id="Rectangle_560" data-name="Rectangle 560" class="cls-1" x="5.52" y="13.82" width="4.21" height="2.84"/>
+      <rect id="Rectangle_561" data-name="Rectangle 561" class="cls-1" x="21.88" y="1.42" width="2.84" height="18.64"/>
+    </g>
+  </g>
+</svg>

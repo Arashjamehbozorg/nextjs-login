@@ -34,11 +34,7 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-p {
-  color: #002361 !important;
-  font-size: 15px !important;
-  font-weight: normal !important;
-}
+
 a:focus {
   outline: none !important;
 }

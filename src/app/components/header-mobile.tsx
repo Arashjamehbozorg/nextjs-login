@@ -1,5 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import LogoMenu from "./logo-menu";
+import SendIcon from "../../../public/icons/ICON-04.svg";
 interface HeaderMobileProps {
   title: string;
 }
@@ -10,7 +11,13 @@ export default function HeaderMobile({ title }: HeaderMobileProps) {
         <div className="flex items-center">
           <LogoMenu />
         </div>
-        <h3 className="text-[002361] text-xl">{title}</h3>
+
+        {title == "ارسال مدارک" ? (
+          <SendIcon width={55} height={55} />
+        ) : (
+          <h3 className="text-[002361] text-xl">title</h3>
+        )}
+
         <div>
           <GiHamburgerMenu size={34} color="#002361" />
         </div>

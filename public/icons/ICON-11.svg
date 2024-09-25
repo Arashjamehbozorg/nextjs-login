@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 34.24 34.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #21c6be;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_466" data-name="Group 466">
+    <path id="Path_7431" data-name="Path 7431" class="cls-1" d="M34.24,17.12c0,9.45-7.66,17.12-17.12,17.12S0,26.57,0,17.12,7.66,0,17.12,0h0c9.45,0,17.12,7.66,17.12,17.12h0"/>
+    <path id="Path_7432" data-name="Path 7432" class="cls-2" d="M29.42,16.15L17.12,3.85l-12.3,12.3,2.35,2.35,8.29-8.29v20.19h3.32V10.2l8.29,8.29,2.34-2.35Z"/>
+  </g>
+</svg>

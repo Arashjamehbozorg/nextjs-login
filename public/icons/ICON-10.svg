@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 34.24 34.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #21c6be;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_478" data-name="Group 478">
+    <g id="Group_467" data-name="Group 467">
+      <g id="Group_466" data-name="Group 466">
+        <path id="Path_7431" data-name="Path 7431" class="cls-1" d="M34.24,17.12c0,9.45-7.66,17.12-17.12,17.12S0,26.57,0,17.12,7.66,0,17.12,0h0c9.45,0,17.12,7.66,17.12,17.12h0"/>
+      </g>
+    </g>
+    <g id="Icon">
+      <path id="Path" class="cls-2" d="M17.12,7.64c-1.53-.1-2.86,1.05-2.97,2.59v6.9c.11,1.53,1.44,2.69,2.97,2.59,1.53.1,2.86-1.06,2.97-2.59v-6.9c-.12-1.53-1.44-2.68-2.97-2.58Z"/>
+      <path id="Path-2" class="cls-2" d="M24.06,15.39v1.72c0,3.33-3.11,6.03-6.94,6.03s-6.94-2.7-6.94-6.03v-1.72"/>
+      <path id="Path-3" class="cls-2" d="M17.12,23.15v3.45"/>
+      <path id="Path-4" class="cls-2" d="M13.15,26.6h7.93"/>
+    </g>
+  </g>
+</svg>
