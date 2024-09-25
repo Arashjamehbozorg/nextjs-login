@@ -15,7 +15,7 @@ export default function HeaderMobile({ title }: HeaderMobileProps) {
         {title == "ارسال مدارک" ? (
           <SendIcon width={55} height={55} />
         ) : (
-          <h3 className="text-[002361] text-xl">title</h3>
+          <h3 className="text-[002361] text-xl">{title}</h3>
         )}
 
         <div>

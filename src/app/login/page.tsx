@@ -5,10 +5,10 @@ import Form from "./form";
 import FooterLogin from "./footer-login";
 const Login = () => {
   return (
-    <div className="container-page">
+    <div className="container-page px-[29px]">
       <div
         id="login-wrapper"
-        className="w-full md:w-[500px] items-center justify-center bg-silver-100 rounded-2xl px-[55px] pb-[54px] pt-[134px] overflow-hidden"
+        className="w-full md:w-[500px] items-center justify-center bg-silver-100 rounded-2xl px-[55px] pb-[54px] pt-[134px] overflow-hidden "
       >
         <div id="login-content">
           <Logo />
