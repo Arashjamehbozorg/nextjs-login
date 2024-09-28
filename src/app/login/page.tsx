@@ -8,7 +8,7 @@ const Login = () => {
     <div className="container-page px-[29px]">
       <div
         id="login-wrapper"
-        className="w-full md:w-[500px] items-center justify-center bg-silver-100 rounded-2xl px-[55px] pb-[54px] pt-[134px] overflow-hidden "
+        className="w-full md:w-[500px] items-center justify-center bg-silver-100 rounded-2xl  pt-[134px] overflow-hidden "
       >
         <div id="login-content">
           <Logo />
