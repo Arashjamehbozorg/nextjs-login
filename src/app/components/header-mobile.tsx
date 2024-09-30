@@ -1,6 +1,7 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import LogoMenu from "./logo-menu";
 import SendIcon from "../../../public/icons/ICON-04.svg";
+import HamburgerMenu from "./hamburger-menu";
 interface HeaderMobileProps {
   title: string;
 }

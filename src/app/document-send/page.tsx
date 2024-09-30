@@ -1,8 +1,9 @@
 import { IoLocationSharp } from "react-icons/io5";
 import { Button } from "../login/button";
-import ChatFooter from "../components/chat-footer";
 import MenuMobile from "../components/menu-mobile";
 import HeaderMobile from "../components/header-mobile";
+import TextArea from "../components/document-send.txt/textarea";
+
 export default function DocumentSend() {
   return (
     <div className="container-page px-[29px] ">
@@ -14,17 +15,18 @@ export default function DocumentSend() {
         >
           آدرس خود را برای ارئه مدارک انتخاب کنید
         </label>
-        <textarea
+        <TextArea
           id="address"
-          className="mb-[5px] bg-[#F0F0F0] border-based w-full px-[18px] py-[10px] placeholder:text-sm text-sm leading-5 h-16 resize-none"
+          classNames="mb-[5px] bg-[#F0F0F0] border-based w-full px-[18px] py-[10px] placeholder:text-sm text-sm leading-5 h-16 resize-none"
           placeholder="بلوار کریم خان زند، خیابان استاد نجات الهی، خیابان خسرو، پلاک ۳۸، واحد ۱۵"
         />
         <div className="relative flex items-center mb-[11px]">
           <span className="absolute right-[18px] top-[9px] text-[#002361] flex items-center">
             <IoLocationSharp size={20} />
           </span>
-          <textarea
-            className="min-h-[125px] bg-[#F0F0F0] placeholder:text-[#002361] pr-10 border-based w-full px-[18px] py-[10px] placeholder:text-sm text-sm leading-5 h-16 resize-none"
+          <TextArea
+            id="map"
+            classNames="min-h-[125px] bg-[#F0F0F0] placeholder:text-[#002361] pr-10 border-based w-full px-[18px] py-[10px] placeholder:text-sm text-sm leading-5 h-16 resize-none"
             placeholder="نقشه"
           />
         </div>
