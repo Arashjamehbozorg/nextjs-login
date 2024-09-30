@@ -18,8 +18,7 @@ export async function POST(req: NextRequest) {
   try {
     const response = await axios.post(
       "http://79.175.167.223/accounts/api/v1/request/accept/",
-      { status },
-      { Authorization: "" } // Sending 'status'
+      { status } // Sending 'status'
     );
     return NextResponse.json(response.data, { status: response.status });
   } catch (err) {
