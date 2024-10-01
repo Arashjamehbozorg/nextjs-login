@@ -9,6 +9,37 @@ export default function TermCondition() {
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
+  // const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   setIsChecked(e.target.checked);
+  // };
+
+  // const handleSubmit = async () => {
+  //   try {
+  //     const token = localStorage.getItem("token");
+  //     console.log("Retrieved Token:", token);
+  //     const response = await axios.post(
+  //       "/api/term-condition",
+  //       // Sending 'status'
+  //       { status: true },
+
+  //       {
+  //         headers: {
+  //           Authorization: `Token ${token}`, // Include the token in the headers
+  //         },
+  //       }
+  //     );
+  //     console.log("Response from backend:", response.data);
+
+  //     if (response.status === 200) {
+  //       router.push("/success-term");
+  //     } else {
+  //       setError(response.data.message);
+  //     }
+  //   } catch (err) {
+  //     console.error("Error during submission:", err);
+  //     setError("Failed to submit acceptance of terms and conditions.");
+  //   }
+  // };
   const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setIsChecked(e.target.checked);
   };
@@ -16,25 +47,40 @@ export default function TermCondition() {
   const handleSubmit = async () => {
     try {
       const token = localStorage.getItem("token");
-      console.log(token);
-      const response = await axios.post(
-        "/api/term-condition",
-        { status: true }, // Sending 'status'
+      if (!token) {
+        throw new Error("Token not found");
+      }
+      console.log("Retrieved Token:", token);
+
+      const response = await fetch(
+        "http://79.175.167.223/accounts/api/v1/request/accept/",
         {
+          method: "POST",
           headers: {
-            Authorization: `Token ${token}`, // Include the token in the headers
+            Authorization: `Token ${token}`,
+            "Content-Type": "application/json",
           },
+          body: JSON.stringify({ status: true }), // Sending 'status'
         }
       );
-      console.log("Response from backend:", response.data);
 
-      if (response.status === 200) {
+      const data = await response.json();
+      console.log("Response from backend:", data);
+
+      if (response.ok) {
         router.push("/success-term");
       } else {
-        setError(response.data.message);
+        setError(
+          data.message || "Failed to submit acceptance of terms and conditions."
+        );
       }
     } catch (err) {
-      setError("Failed to submit acceptance of terms and conditions.");
+      console.error("Error during submission:", err);
+
+      const errorMessage =
+        (err as Error).message ||
+        "Failed to submit acceptance of terms and conditions.";
+      setError(errorMessage);
     }
   };
 
