@@ -26,7 +26,19 @@ const Form = () => {
       setToken(token);
 
       localStorage.setItem("token", token); // store token in local storage
-      router.push("/term-condition");
+
+      const acceptResponse = await axios.get(
+        "http://79.175.167.223/accounts/api/v1/request/accept/",
+        {
+          headers: { Authorization: `Token ${token}` },
+        }
+      );
+
+      if (acceptResponse.data.length === 0) {
+        router.push("/term-condition");
+      } else {
+        router.push("/already-accepted");
+      }
     } catch (err) {
       const axiosError = err as AxiosError<ErrorResponse>;
       setError(axiosError.response?.data?.message || "Failed to login");
@@ -58,7 +70,7 @@ const Form = () => {
       </div>
       {error && <p style={{ color: "red" }}>{error}</p>}
       <div className="container-login-form-btn">
-        <Button>ورود</Button>
+        <Button type="submit">ورود</Button>
       </div>
       <div className="text-center mt-14">
         <span className="text-[#002361v] font-light text-sm">

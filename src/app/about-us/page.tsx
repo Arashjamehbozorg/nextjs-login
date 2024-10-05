@@ -1,6 +1,5 @@
 import HeaderMobile from "../components/header-mobile";
 import { LuCheckCircle } from "react-icons/lu";
-import ChatFooter from "../components/chat-footer";
 import MenuMobile from "../components/menu-mobile";
 export default function AboutUs() {
   return (
